@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html { background: #050505; scroll-behavior: auto; }
+body { margin: 0; background: #050505; color: #fff; font-family: "Inter Tight", system-ui, sans-serif; overflow-x: clip; -webkit-font-smoothing: antialiased; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: clip; }
+::selection { background: #168BFF; color: #fff; }
+.silver { background: linear-gradient(180deg, #fff 10%, #8e98a5 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ln { display: block; overflow: hidden; padding: 0.04em 0; }
+.ln > span { display: block; }
+body.cur, body.cur * { cursor: none; }
+:focus-visible { outline: 2px solid #168BFF; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  #process { height: auto !important; }
+  .track { flex-direction: column !important; width: 100% !important; }
+  .pn { width: 100% !important; min-height: 70svh; }
+}
